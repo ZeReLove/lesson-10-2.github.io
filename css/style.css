@@ -1,0 +1,40 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+background-color: #000;
+	padding: 0px;
+	margin: 0px;
+}
+
+.block{
+	width: 300px;
+	height: 400px;
+	background-color: #fff;
+	border: 2px solid grey;
+	padding: 20px 30px;
+	position: absolute;
+	top: 50%;
+	margin-top: -200px;
+	left: 50%;
+	margin-left: -150px;
+}
+
+
+.first{
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	width: 118px;	
+	float: left;
+}
+
+.second{
+	padding: 0px;
+	margin: 0px;
+	display: inline-block;
+	width: 118px;	
+	float: right;
+}
+
